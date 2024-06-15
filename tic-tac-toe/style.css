@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+h1{
+    text-align: center;
+    font-size:xx-large;
+}
+
+.container{
+    width: 50%;
+    margin: 40px auto;
+}
+
+/* box should 3 in each row like 3x3 and have some gap in each box,add some colour in button and text should be bold*/
+
+.game{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.box{
+    width: calc(33.33% - 10px);
+    height: 100px;
+    margin-bottom: 2%;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: xx-large;
+    font-weight: bold;
+    color: red;
+
+    
+}
+
+.reset{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    /* at center*/
+    margin: 20px auto;
+    display: block;
+    font-size: large;
+}
+
+/* result at center of page*/
+.result{
+    font-size: xx-large;
+    font-weight: bold;
+    color: #e4510c;
+    text-align: center;
+
+}
+
+#start{
+    background-color: #4CAF50;
+    color: white;
+    margin: 20px auto;
+    display: block;
+    font-size: large;
+
+}
+
+.hide{
+    display: none;
+}
+
+/* player-symbol
+   player shouble along para*/
+.player-symbol{
+    font-size: larger;
+    text-align: center;
+    
+}
+.player-symbol p{
+    display: inline-block;
+    margin: 0 10px;
+    color:chocolate;
+}
+
+select{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+

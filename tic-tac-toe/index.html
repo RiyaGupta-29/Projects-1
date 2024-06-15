@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tic-tac-toe</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <h1>TIC-TAC-TOE</h1>
+    <div class="player-symbol">
+        <!--drop down of x and o-->
+        <P>player1</P>
+        <select id="player1">
+            <option value="" disabled selected>select option</option>
+            <option value="X">X</option>
+            <option value="O">O</option>
+        </select>
+        <P>player2</P>
+        <select id="player2" disabled>
+            <option value="" disabled selected>select option</option>
+            <option value="X">X</option>
+            <option value="O">O</option>
+        </select>
+    </div>
+    <div class="game-container hide">
+        <h3 class="result">Winner</h3>
+        <button id="start">New Game</button>
+    </div>
+    <div class="container">
+    <div class="game">
+       <button class="box"></button>
+       <button class="box"></button>
+       <button class="box"></button>
+       <button class="box"></button>
+       <button class="box"></button>
+       <button class="box"></button>
+       <button class="box"></button>
+       <button class="box"></button>
+       <button class="box"></button>
+    </div>
+    
+    <button class="reset">Reset</button>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

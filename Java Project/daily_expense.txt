@@ -1,0 +1,6 @@
+		
+118june,2021,eraser,5.0		
+		
+221june,2021,scale,10.0		
+		
+324june,2021,pencil,5.0		
